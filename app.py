@@ -1,12 +1,11 @@
 from flask import Flask, render_template, request, session
 import pandas as pd
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from transformers import XLNetConfig, XLNetForSequenceClassification, XLNetTokenizer
-from keras_preprocessing.sequence import pad_sequences
+from transformers import XLNetTokenizer
+from keras.preprocessing.sequence import pad_sequences
 import torch
-from pandas.io.json import json_normalize
-import csv
-import os
+
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
