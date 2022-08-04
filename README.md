@@ -12,3 +12,4 @@
     docker build . -t app.py
     docker run -p 8080:8080 app.py 
 ```
+- [web service link](https://tzzyy9utnn.us-east-1.awsapprunner.com )
