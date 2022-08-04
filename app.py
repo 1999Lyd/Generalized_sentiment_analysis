@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, session
 import pandas as pd
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from transformers import XLNetTokenizer
-from keras.preprocessing.sequence import pad_sequences
+from keras.utils.data_utils import pad_sequences
 import torch
 
 
