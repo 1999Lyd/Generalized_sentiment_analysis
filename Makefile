@@ -6,4 +6,4 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C,W0702,W0621 main.py
+	pylint --disable=E1101,W0123 app.py
