@@ -5,3 +5,5 @@ transformers
 keras
 torch
 gunicorn
+pylint
+black
