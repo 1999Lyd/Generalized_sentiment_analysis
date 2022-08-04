@@ -8,5 +8,7 @@
 ``` pip install -r requirements.txt```
 - run service locally``` python app.py```
 - or run in container
-``` docker build . -t app.py
-    docker run -p 8080:8080 app.py ```
+``` 
+    docker build . -t app.py
+    docker run -p 8080:8080 app.py 
+```
