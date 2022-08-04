@@ -1,0 +1,7 @@
+flask
+pandas
+vaderSentiment
+transformers
+keras
+torch
+gunicorn
