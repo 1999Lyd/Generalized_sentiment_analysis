@@ -7,3 +7,5 @@ torch
 gunicorn
 pylint
 black
+tensorflow
+SentencePiece
