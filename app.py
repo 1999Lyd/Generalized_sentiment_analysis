@@ -1,3 +1,4 @@
+#sentiment analysis microservice
 from flask import Flask, render_template, request, session
 import pandas as pd
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
